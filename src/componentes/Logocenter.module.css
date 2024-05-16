@@ -1,0 +1,56 @@
+
+.Logocenter {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    text-align: center;
+    margin: 0 auto; /* Centraliza o componente na página */
+}
+
+.Logocenter .inputContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.Logocenter input {
+    margin: 20px;
+    width: 582px;
+    height: 44px;
+    border-radius: 22px;
+    border-color: rgba(227, 227, 227, 1);
+    border-style: ridge;
+    padding-right: 80px; /* Espaço para as logos */
+}
+
+.Logocenter .logoInsideInput {
+    position: absolute;
+    height: 25px; /* Ajuste conforme necessário */
+    
+}
+
+.Logocenter .logoInsideInput:first-of-type {
+    right: 50px; /* Ajuste conforme necessário */
+    margin-right: 20px;
+}
+
+.Logocenter .logoInsideInput:last-of-type {
+    right: 25px; /* Ajuste conforme necessário */
+    margin-right: 10px;
+}
+
+.Logocenter section {
+    display: flex;
+    margin: 20px;
+}
+
+.Logocenter button {
+    margin: 10px;
+    border-radius: 5px;
+    border: 0px;
+    height: 35px;
+    width: 130px;
+
+}

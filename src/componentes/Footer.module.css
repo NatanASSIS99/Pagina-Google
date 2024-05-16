@@ -1,0 +1,46 @@
+
+.Footer{
+    margin-top: 220px;
+   
+    
+}
+.Footer ul{
+    display: flex; 
+    list-style: none;
+    background-color: rgba(242, 242, 242, 1) ;
+    margin-top: -20px;
+    align-items: center;
+   
+}
+.Footer li{
+    margin: 15px;
+    
+ 
+}
+
+.Footer section{
+   
+    display: flex; 
+    justify-content: space-between;
+    margin-left: 580px;
+    background-color: rgba(242, 242, 242, 1) ;
+}
+.Footer p{
+    margin: 20px;
+    display: flex; 
+
+    
+    
+    
+  
+}
+#brasil{
+    margin-left: 0px;
+    padding-left: 53px;
+    background-color: rgba(242, 242, 242, 1) ; 
+    height: 55px;
+    width: 96.40%;
+    align-items: center;
+    border: 1px solid  rgba(242, 242, 242, 1);
+
+}
